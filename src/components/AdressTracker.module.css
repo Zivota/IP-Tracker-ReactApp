@@ -1,0 +1,58 @@
+.adresstracker {
+  height: 20rem;
+  width: 100%;
+  background-image: url("../images/pattern-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .adresstracker {
+    height: 15rem;
+  }
+}
+
+.adresstracker h1 {
+  color: #f3f3f3;
+  padding: 1.5rem;
+}
+
+.inputHolder {
+  width: 35rem;
+  height: 3rem;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.inputHolder input {
+  width: calc(100% - 3.5rem);
+  height: 100%;
+  padding: 0 1.5rem;
+  border-radius: 0.8rem 0 0 0.8rem;
+  border: none;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.inputHolder input::placeholder {
+  color: grey;
+}
+
+.inputHolder input:focus {
+  outline: none;
+}
+
+.inputHolder button {
+  height: 100%;
+  width: 3.5rem;
+  border-radius: 0 0.8rem 0.8rem 0rem;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}

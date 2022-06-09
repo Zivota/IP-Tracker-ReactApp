@@ -1,0 +1,58 @@
+.infoHolder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 20rem;
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.8rem;
+  top: 10rem;
+  z-index: 10;
+}
+
+.info {
+  padding: 1.5rem 0;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .infoHolder {
+    flex-direction: row;
+    height: 10rem;
+  }
+
+  .info {
+    position: relative;
+    flex: 1;
+    height: 100%;
+  }
+
+  .info span {
+    position: absolute;
+    height: 5rem;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    right: 0;
+  }
+}
+
+.info h5 {
+  color: grey;
+  font-size: 0.7rem;
+  padding-bottom: 0.6rem;
+}
+
+.info h3 {
+  font-size: 1.4rem;
+  color: #404040;
+}
