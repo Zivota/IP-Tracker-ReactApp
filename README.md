@@ -1,3 +1,9 @@
+# Front-End Mentor challenge
+
+## How it works?
+
+Simple design provided by Front-End Mentor, on first opening of an app, it collects IP adress, country and city where you at, isp, latitude and longitude using IPPIFY public api and displaying your current location using Leaflet.js api. It also allows you to enter any IP address and it will automatically gather all info above as well as show current location of that ip address on map.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
